@@ -1410,6 +1410,7 @@ function TransakSDK(partnerData) {
   this.sdkVersion = _package.version;
   this.partnerData = partnerData;
   this.isInitialised = false;
+  this.eventEmitter = eventEmitter;
   this.EVENTS = _constants.EVENTS;
   this.ALL_EVENTS = '*';
   this.ERROR = 'TRANSAK_ERROR';
