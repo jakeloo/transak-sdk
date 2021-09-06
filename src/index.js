@@ -12,6 +12,7 @@ function TransakSDK(partnerData) {
     this.sdkVersion = version;
     this.partnerData = partnerData;
     this.isInitialised = false;
+    this.eventEmitter = eventEmitter;
     this.EVENTS = EVENTS;
     this.ALL_EVENTS = '*';
     this.ERROR = 'TRANSAK_ERROR'
